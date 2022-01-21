@@ -1,11 +1,8 @@
 # NessusExporter
 
-Nessus zafiyet taramasından; 
-	Taranan sunuculara ait
-		Hostname, IP Adresi ve İşletim Sistemi bilgilerini
-
-	Zafiyetler üzerinden
-		Zafiyetin Adı, Seviyesi ve Zafiyetten etkilenen sunucu bilgilerini
+Nessus zafiyet taramasından:
+Taranan sunuculara ait; Hostname, IP Adresi ve İşletim Sistemi bilgilerini
+Zafiyetler üzerinden; Zafiyetin Adı, Seviyesi ve Zafiyetten etkilenen sunucu bilgilerini
 
 .JSON formatında export etmeyi amaçlayan basit script.
 
