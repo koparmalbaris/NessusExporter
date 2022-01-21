@@ -1,4 +1,17 @@
 # NessusExporter
+
+Nessus zafiyet taramasından; 
+	Taranan sunuculara ait
+		Hostname, IP Adresi ve İşletim Sistemi bilgilerini
+
+	Zafiyetler üzerinden
+		Zafiyetin Adı, Seviyesi ve Zafiyetten etkilenen sunucu bilgilerini
+
+.JSON formatında export etmeyi amaçlayan basit script.
+
+
+# Usage
+
 İlgili python scripti çalıştırılmadan önce, config.txt dosyası içerisine:
 
   - access = Nessus'dan alınan AccessKey girilmeli
