@@ -5,10 +5,13 @@ Taranan sunuculara ait; hostname, IP adresi ve işletim sistemi bilgilerini, Zaf
 
 
 Scriptin çalıştırılmasından sonra:
+
 Nessus_Export_HostList.json dosyası için Örnek Data Seti
+
 {"hostname":"metasploitable", "ip_address":"192.168.1.5", "OS":"Windows Server 2012 R2"}
 
 Nessus_Export_Vulnerabilities.json dosyası için Örnek Data Seti
+
 {"vuln_name":"PrintNightmare", "severity":"Critical", "affected_hosts":["xxx","xxx"], …}
 
 
