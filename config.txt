@@ -1,0 +1,5 @@
+[config]
+access=<AccessKey>
+secret=<SecretKey>
+url=<URL (bkz: https://127.0.0.1:8834)>
+scan_id=<scanID>
