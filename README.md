@@ -1,10 +1,15 @@
 # NessusExporter
 
 Nessus zafiyet taramasından:
-Taranan sunuculara ait; Hostname, IP Adresi ve İşletim Sistemi bilgilerini
-Zafiyetler üzerinden; Zafiyetin Adı, Seviyesi ve Zafiyetten etkilenen sunucu bilgilerini
+Taranan sunuculara ait; hostname, IP adresi ve işletim sistemi bilgilerini, Zafiyetler üzerinden; zafiyetin adı, seviyesi ve ilgili zafiyetten etkilenmekte olan sunucu bilgilerini .JSON formatında export etmeyi amaçlayan basit script.
 
-.JSON formatında export etmeyi amaçlayan basit script.
+
+Scriptin çalıştırılmasından sonra:
+Nessus_Export_HostList.json dosyası için Örnek Data Seti
+{"hostname":"metasploitable", "ip_address":"192.168.1.5", "OS":"Windows Server 2012 R2"}
+
+Nessus_Export_Vulnerabilities.json dosyası için Örnek Data Seti
+{"vuln_name":"PrintNightmare", "severity":"Critical", "affected_hosts":["xxx","xxx"], …}
 
 
 # Usage
