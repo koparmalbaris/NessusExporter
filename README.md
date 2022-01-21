@@ -1,10 +1,10 @@
 # NessusExporter
 
 Nessus zafiyet taramasından:
-Taranan sunuculara ait; hostname, IP adresi ve işletim sistemi bilgilerini, Zafiyetler üzerinden; zafiyetin adı, seviyesi ve ilgili zafiyetten etkilenmekte olan sunucu bilgilerini .JSON formatında export etmeyi amaçlayan basit script.
+Taranan sunuculara ait; hostname, IP adresi ve işletim sistemi bilgilerini, Zafiyetler üzerinden; zafiyetin adı, seviyesi ve ilgili zafiyetten etkilenmekte olan sunucu bilgilerini .JSON formatında export etmeyi amaçlayan basit python script.
 
 
-Scriptin çalıştırılmasından sonra:
+Scriptin çalıştırılmasından sonra oluşan JSON dosyalarından:
 
 Nessus_Export_HostList.json dosyası için Örnek Data Seti
 
